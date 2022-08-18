@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;500;700&family=Righteous&family=Roboto&display=swap');
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    text-decoration: none;
+  }
+  body{
+    display: flex;
+    background-color:#22212C ;
+    color:#837E9F;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+.bloco-perfil{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    background-color: #302F3D;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius:20px;
+    width: 380px;
+    height: 348px;
+    margin-top: 40px;
+    
+}
+
+.h-bloco-perfil{
+    padding-right: 0;
+    margin-right: 0;
+    font-family: 'Merriweather Sans';
+}
+
+.p-bloco-perfil{
+    padding-top: 0px;
+    margin-top:0px;
+    font-family: 'Merriweather Sans'
+}
+
+
+.img-perfil{
+    display: flex;
+    width: 128pxpx;
+    height: 128px;
+    border: 2px solid #00FF00;
+    border-radius: 100px;
+}
+
+.bloco-informacoes-pessoais{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+    background-color: #302F3D;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius:20px;
+    padding-left: 30px;
+    width: 348px;
+    height: 348px;
+    margin-top: 40px;
+}
+
+.bloco-informacoes{
+    display: flex;
+    flex-direction:row;
+    align-content:flex-start;
+    gap: 10px;
+}
+
+
+.bloco-informacoes-experiencias{
+    display: flex;
+    flex-direction:row;
+    align-content:flex-start;
+    gap: 10px;
+}
+
+.bloco-informarcoes-github{
+    display: flex;
+    flex-direction:row;
+    align-content:flex-start;
+    gap: 10px;
+}
+
+
+.bloco-informacoes-linkedin{
+    display: flex;
+    flex-direction:row;
+    align-content:flex-start;
+    gap: 10px;
+}
+
+.bloco-informacoes-twitter{
+    display: flex;
+    flex-direction:row;
+    align-content:flex-start;
+    gap: 10px;
+}
+
+
+.bloco-informacoes-e-mail{
+    display: flex;
+    flex-direction:row;
+    align-content:flex-start;
+    gap: 10px;
+}
+
+.blocos-tecs{
+    display: flex;
+    background-color: #302F3D;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius:20px;
+    padding-left: 30px;
+    width: 348px;
+    height: 208px;
+    margin-top: 40px;
+}
+
+.blocos-tecnologias-titulo{
+    display: flex;
+    flex-direction:center;
+    align-content:center;
+    font-family: 'Merriweather Sans';
+}
+
+.blocos-tecnologias-js{
+    display: flex;
+    background-color:#CB92B1  ;
+    border-radius:30px;
+    width: 86px;
+    position:absolute;
+    height: 24px;
+    margin-top:70px;
+    color: #000000;
+    font-size: 10px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+.blocos-tecnologias-html{
+    display: flex;
+    background-color:#CB92B1  ;
+    border-radius:30px;
+    width: 86px;
+    position:absolute;
+    height: 24px;
+    margin-top:70px;
+    margin-left: 200px;
+    color: #000000;
+    font-size: 10px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+.blocos-tecnologias-css{
+    display: flex;
+    background-color:#CB92B1  ;
+    border-radius:30px;
+    width: 86px;
+    position:absolute;
+    height: 24px;
+    margin-top:120px;
+    color: #000000;
+    font-size: 10px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+.blocos-tecnologias-git{
+    display: flex;
+    background-color:#CB92B1  ;
+    border-radius:30px;
+    width: 86px;
+    position:absolute;
+    height: 24px;
+    margin-top:120px;
+    margin-left:100px;
+    color: #000000;
+    font-size: 10px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+
+.blocos-tecnologias-github{
+    display: flex;
+    background-color:#CB92B1  ;
+    border-radius:30px;
+    width: 86px;
+    position:absolute;
+    height: 24px;
+    margin-top:70px;
+    margin-left:100px;
+    color: #000000;
+    font-size: 10px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    text-transform: uppercase;
+    padding:2px;
+}
+
+.bloco-Experiências{
+    display: flex;
+    background-color: #302F3D;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius:20px;
+    padding-left: 30px;
+    width: 348px;
+    height: 208px;
+    margin-top: 40px;
+    flex-direction:center;
+    align-content:center;
+    font-family: 'Merriweather Sans';
+}
+
+
+
+
+.bloco-educacao{
+    display: flex;
+    background-color: #302F3D;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius:20px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'Merriweather Sans';
+    width: 348px;
+    height: 208px;
+    margin-top: 40px;
+}
+
+.bloco-educacao-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+
+.bloco-myprojects{
+    display: flex;
+    width: 950px;
+    height: 86px;
+    margin-left:100px;
+    margin-top: 40px;
+    background: #302F3D;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-family: 'Merriweather Sans';
+}
+
+.link-projetos{
+    display: block;
+    position:absolute;
+    text-decoration: none;
+    justify-content: flex-start;
+    color: #837E9F;
+    font-family: 'Merriweather Sans';
+    margin-left: 850px;
+    margin-top: 30px;
+}
+
+.bloco-myprojetos1{
+    display: flex;
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    margin-left: 100px;
+    margin-top: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 10px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.bloco-myprojects2{
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    margin-left: 580px;
+    margin-top: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 10px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.rodape{
+    display: flex;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 1500px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+}
+a{
+    color: #837E9F;
+    text-decoration: none;
+}
